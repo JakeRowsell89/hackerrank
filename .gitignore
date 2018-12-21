@@ -1,2 +1,7 @@
 haskell/**/*.o
 haskell/**/*.hi
+
+scala/**
+*.go
+*.js
+*.txt
