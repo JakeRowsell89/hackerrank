@@ -11,4 +11,4 @@ palindrome s
   | otherwise = a == (B.reverse z)
   where l = B.length s
         half = (B.length s) `div` 2
-        (a,z) = B.splitAt half) s
+        (a,z) = B.splitAt half s
